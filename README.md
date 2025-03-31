@@ -47,7 +47,7 @@ http://localhost:8080/actuator/heapdump - скачать дамп памяти J
 </br>2) Grafana  - инструмент для визуализации данных
 
 1) Скачиваем докер клиент (https://www.docker.com/)
-2) Скачиваем все файлы из папке Grafana-Docker
+2) Скачиваем все файлы из папке Grafana-Docker (https://github.com/vnikolaenko-dev/web-testing/tree/main/Grafana-Docker)
 ```
 docker-compose up --build
 ```
