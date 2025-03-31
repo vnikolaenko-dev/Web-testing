@@ -1,8 +1,9 @@
 # web-testing
+<img src="https://image.pngaaa.com/546/2459546-middle.png" title="spring" alt="spring" width="90" height="75"/>&nbsp;
 Набор инструментов для тестирования вашего приложения на Java Spring Boot.
-</br><img src="https://github.com/devicons/devicon/blob/master/icons/prometheus/prometheus-plain-wordmark.svg" title="prometheus" alt="prometheus" width="65" height="65"/>&nbsp;
-</br><img src="https://github.com/devicons/devicon/blob/master/icons/grafana/grafana-plain-wordmark.svg" title="grafana" alt="grafana" width="65" height="65"/>&nbsp;
-</br><img src="https://avatars.githubusercontent.com/u/12608521?s=200&v=4" title="artillery" alt="artillery" width="65" height="65"/>&nbsp;
+</br><img src="https://github.com/devicons/devicon/blob/master/icons/prometheus/prometheus-plain-wordmark.svg" title="prometheus" alt="prometheus" width="75" height="75"/>&nbsp; - приложение, используемое для мониторинга событий, сбора и хранения метрик.
+</br><img src="https://github.com/devicons/devicon/blob/master/icons/grafana/grafana-plain-wordmark.svg" title="grafana" alt="grafana" width="75" height="75"/>&nbsp; - программная система визуализации данных, ориентированная на данные систем ИТ-мониторинга.
+</br><img src="https://avatars.githubusercontent.com/u/12608521?s=200&v=4" title="artillery" alt="artillery" width="75" height="75"/>&nbsp; - платформа для нагрузочного тестирования.
 
 
 В этом гайде мы рассмторим следующие инструменты:
