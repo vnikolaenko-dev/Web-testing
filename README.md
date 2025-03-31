@@ -18,6 +18,8 @@ management.endpoints.web.exposure.include=health,info,env,beans,metrics
 теперь при запуске нашего приложения мы можем смтореть различные метрики:
 </br>
 http://localhost:8080/actuator/helth - общее состояние приложения
+</br>
 http://localhost:8080/actuator/metrics/system.cpu.usage - загрузка процессора
+</br>
 и т.д.
 
