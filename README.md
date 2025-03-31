@@ -52,7 +52,10 @@ http://localhost:8080/actuator/heapdump - скачать дамп памяти J
 docker-compose up --build
 ```
 3) Запускаем команду в той же дирректории 
-4) Запускаем приложение Java Spring на порту 8080
+4) Запускаем приложение Java Spring на порту 8080 (предварительно вписав prometheus в application.properties)
+```
+management.endpoints.web.exposure.include=health,info,metrics,prometheus
+```
 5) Переходим на http://localhost:3000/ (стандартный логин и пароль admin admin)
 6) Видим графики и статистку в Dashboards
 <img src="https://github.com/vnikolaenko-dev/web-testing/blob/main/img/screen1.jpg"/>
