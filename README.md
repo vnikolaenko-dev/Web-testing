@@ -55,3 +55,4 @@ docker-compose up --build
 4) Запускаем приложение Java Spring на порту 8080
 5) Переходим на http://localhost:3000/ (стандартный логин и пароль admin admin)
 6) Видим графики и статистку в Dashboards
+   
