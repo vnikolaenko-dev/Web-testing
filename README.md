@@ -60,6 +60,8 @@ management.endpoints.web.exposure.include=health,info,metrics,prometheus
 6) Видим графики и статистку в Dashboards
 <img src="https://github.com/vnikolaenko-dev/web-testing/blob/main/img/screen1.jpg"/>
 </br></br>
+
+
 ## Часть №3 (Artillery)
 Artillery - ПО с открытытм исходным кодом для проведения нагрузочного тестирования
 
