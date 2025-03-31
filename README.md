@@ -5,7 +5,9 @@
 </br>
 </br><img src="https://github.com/devicons/devicon/blob/master/icons/prometheus/prometheus-plain-wordmark.svg" title="prometheus" alt="prometheus" width="75" height="75"/>&nbsp; - приложение, используемое для мониторинга событий, сбора и хранения метрик.
 </br><img src="https://github.com/devicons/devicon/blob/master/icons/grafana/grafana-plain-wordmark.svg" title="grafana" alt="grafana" width="75" height="75"/>&nbsp; - программная система визуализации данных, ориентированная на данные систем ИТ-мониторинга.
+</br><img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-plain-wordmark.svg" title="docker" alt="docker" width="75" height="75"/>&nbsp; - программное обеспечение для автоматизации развёртывания и управления приложениями.
 </br><img src="https://avatars.githubusercontent.com/u/12608521?s=200&v=4" title="artillery" alt="artillery" width="75" height="75"/>&nbsp; - платформа для нагрузочного тестирования.
+
 
 
 В этом гайде мы рассмторим следующие инструменты:
@@ -44,3 +46,12 @@ http://localhost:8080/actuator/heapdump - скачать дамп памяти J
 </br>1) Prometheus - система мониторинга и сбора метрик с открытым исходным кодом
 </br>2) Grafana  - инструмент для визуализации данных
 
+1) Скачиваем докер клиент (https://www.docker.com/)
+2) Скачиваем все файлы из папке Grafana-Docker
+```
+docker-compose up --build
+```
+3) Запускаем команду в той же дирректории 
+4) Запускаем приложение Java Spring на порту 8080
+5) Переходим на http://localhost:3000/ (стандартный логин и пароль admin admin)
+6) Видим графики и статистку в Dashboards
