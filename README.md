@@ -7,10 +7,6 @@
 </br><img src="https://github.com/devicons/devicon/blob/master/icons/grafana/grafana-plain-wordmark.svg" title="grafana" alt="grafana" width="75" height="75"/>&nbsp; - программная система визуализации данных, ориентированная на данные систем ИТ-мониторинга.
 </br><img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-plain-wordmark.svg" title="docker" alt="docker" width="75" height="75"/>&nbsp; - программное обеспечение для автоматизации развёртывания и управления приложениями.
 </br><img src="https://avatars.githubusercontent.com/u/12608521?s=200&v=4" title="artillery" alt="artillery" width="75" height="75"/>&nbsp; - платформа для нагрузочного тестирования.
-
-
-
-В этом гайде мы рассмторим следующие инструменты:
 </br></br>
 
 ## Часть №1 (Spring Boot Actuator)
