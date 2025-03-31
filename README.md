@@ -56,3 +56,35 @@ docker-compose up --build
 5) Переходим на http://localhost:3000/ (стандартный логин и пароль admin admin)
 6) Видим графики и статистку в Dashboards
 <img src="https://github.com/vnikolaenko-dev/web-testing/blob/main/img/screen1.jpg"/>
+</br></br>
+## Часть №3 (Artillery)
+Artillery - ПО с открытытм исходным кодом для проведения нагрузочного тестирования
+
+1) Устанавливаем Node.js (https://nodejs.org/en/download)
+2) Скачиваем Artillery
+```
+npm install -g artillery@latest
+```
+3) создаем файл с расширением .yml для тестирования
+```yml
+config:
+  target: 'http://localhost:8080'
+  phases:
+    - duration: 60       # количество секунд
+      arrivalRate: 1000  # 1000 запросов в секунду
+scenarios:
+  - flow:
+      - post:
+          url: '/auth/login'
+          json:
+            name: 'viktor'
+            email: 'user@example.com'
+            password: 'password'
+
+```
+4) Запускаем тест
+```
+artillery run login-test.yml
+```
+
+Пронаблюдать как ваше приложение ведет себя в стрессовых условыиях вы моежете Grafana)
