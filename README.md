@@ -22,5 +22,9 @@ http://localhost:8080/actuator/helth - общее состояние прило�
 </br>
 http://localhost:8080/actuator/metrics/system.cpu.usage - загрузка процессора
 </br>
+http://localhost:8080/actuator/heapdump - скачать дамп памяти JVM в формате .hprof
+</br>
 и т.д.
+
+## Часть №2
 
