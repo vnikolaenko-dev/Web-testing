@@ -1,6 +1,8 @@
 # web-testing
 Набор инструментов для тестирования вашего приложения на Java Spring Boot.
-</br><img src="https://github.com/devicons/devicon/blob/master/icons/grafana/grafana-plain-wordmark.svg" title="Java" alt="Java" width="50" height="50"/>&nbsp;
+</br><img src="https://github.com/devicons/devicon/blob/master/icons/prometheus/prometheus-plain-wordmark.svg" title="prometheus" alt="prometheus" width="65" height="65"/>&nbsp;
+</br><img src="https://github.com/devicons/devicon/blob/master/icons/grafana/grafana-plain-wordmark.svg" title="grafana" alt="grafana" width="65" height="65"/>&nbsp;
+</br><img src="https://avatars.githubusercontent.com/u/12608521?s=200&v=4" title="artillery" alt="artillery" width="65" height="65"/>&nbsp;
 
 
 В этом гайде мы рассмторим следующие инструменты:
